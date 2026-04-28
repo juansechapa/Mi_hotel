@@ -1,6 +1,6 @@
 package model;
 
-public class habitacion {
+public class Habitacion {
 
     private int idHabitacipn;
     private String numero;
@@ -8,10 +8,10 @@ public class habitacion {
     private int idTipo;
     private double precio;
 
-    public habitacion() {
+    public Habitacion() {
     }
 
-    public habitacion(int idHabitacipn, String numero, int cantidad_camas, int idTipo, double precio) {
+    public Habitacion(int idHabitacipn, String numero, int cantidad_camas, int idTipo, double precio) {
         this.idHabitacipn = idHabitacipn;
         this.numero = numero;
         this.cantidad_camas = cantidad_camas;

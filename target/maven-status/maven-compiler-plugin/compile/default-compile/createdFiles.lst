@@ -1,0 +1,5 @@
+com\mycompany\hotel\JakartaRestConfiguration.class
+com\mycompany\hotel\resources\JakartaEE10Resource.class
+model\Huesped.class
+model\tipo_habitacion.class
+model\habitacion.class

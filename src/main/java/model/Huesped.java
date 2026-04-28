@@ -14,7 +14,8 @@ public class Huesped {
     public Huesped() {
     }
 
-    public Huesped(int idHuesped, int idUsuario, String nombres, String apellidos, String documento, int edad, String telefono, String email) {
+    public Huesped(int idHuesped, int idUsuario, String nombres, String apellidos, String documento, int edad,
+            String telefono, String email) {
         this.idHuesped = idHuesped;
         this.idUsuario = idUsuario;
         this.nombres = nombres;
