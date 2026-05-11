@@ -2,7 +2,7 @@ package model;
 
 public class Habitacion {
 
-    private int idHabitacipn;
+    private int idHabitacion;
     private String numero;
     private int cantidad_camas;
     private int idTipo;
@@ -11,8 +11,8 @@ public class Habitacion {
     public Habitacion() {
     }
 
-    public Habitacion(int idHabitacipn, String numero, int cantidad_camas, int idTipo, double precio) {
-        this.idHabitacipn = idHabitacipn;
+    public Habitacion(int idHabitacion, String numero, int cantidad_camas, int idTipo, double precio) {
+        this.idHabitacion = idHabitacion;
         this.numero = numero;
         this.cantidad_camas = cantidad_camas;
         this.idTipo = idTipo;
@@ -20,11 +20,11 @@ public class Habitacion {
     }
 
     public int getIdHabitacipn() {
-        return idHabitacipn;
+        return idHabitacion;
     }
 
     public void setIdHabitacipn(int idHabitacipn) {
-        this.idHabitacipn = idHabitacipn;
+        this.idHabitacion = idHabitacipn;
     }
 
     public String getNumero() {
